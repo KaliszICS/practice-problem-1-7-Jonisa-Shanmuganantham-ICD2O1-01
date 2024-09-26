@@ -13,7 +13,7 @@ def q2():
   integer = input("Input an integer: ")
   integer = int(integer)
   bool1  = integer > 5
-  print = bool1
+  print(bool1)
   
 def q3():
   word = input("Input the letter a: ")
@@ -23,6 +23,7 @@ def q3():
 def q4():
   word = input("Input a word earlier in the dictionary than google: ")
   bool1 = word < "google"
+  print(bool1)
 
 def q5():
   integer = input("Input an integer: ")
